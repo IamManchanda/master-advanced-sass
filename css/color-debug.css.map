@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,uBAAuB",
+"sources": ["../scss/color-debug.scss"],
+"names": [],
+"file": "color-debug.css"
+}

@@ -1,0 +1,36 @@
+.primary {
+  background-color: #1779ba;
+}
+.primary:hover, .primary:focus {
+  background-color: #0c3e5f;
+}
+
+.secondary {
+  background-color: #767676;
+}
+.secondary:hover, .secondary:focus {
+  background-color: #434343;
+}
+
+.success {
+  background-color: #3adb76;
+}
+.success:hover, .success:focus {
+  background-color: #1b9448;
+}
+
+.warning {
+  background-color: #ffae00;
+}
+.warning:hover, .warning:focus {
+  background-color: #996800;
+}
+
+.alert {
+  background-color: #cc4b37;
+}
+.alert:hover, .alert:focus {
+  background-color: #7d2c20;
+}
+
+/*# sourceMappingURL=each-loop.css.map */

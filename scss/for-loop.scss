@@ -1,0 +1,21 @@
+// Maximum number of cells to display per direction
+$max: 7; 
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  > div {
+    height: 25px;
+    background: #ccc;
+    border: 1px solid #aaa;
+  }
+}
+
+// Looping through the code
+@for $i from 1 through $max {
+ $equ: 100% / $i ;
+ .grid.block-#{ $i } > div {
+    flex: 0 0 $equ;
+ }
+}

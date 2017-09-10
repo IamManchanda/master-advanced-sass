@@ -1,0 +1,28 @@
+$color: #0EA29D;
+
+$a: darken($color, 10%); // Darken a color by 10%
+$b: lighten($color, 15%); // Lighten a color by 15%
+$c: saturate($color, 20%); // Saturate a color by 20%
+$d: desaturate($color, 20%); // Desaturate a color by 20%
+$e: adjust-hue($color, 15%); // Adjust hue of a color by 15%
+$f: rgba($color, .7); // Adding Alpha Transparency
+$g: grayscale($color); //  Converts a color to grayscale.
+$h: complement($color); // Returns the complement of a color.
+
+// Mix two colors, weight 50% by default.
+// mix($color1, $color2, $weight:50%)
+// 
+// 25% means that a quarter of the first color and 
+// three quarters of the second color should be used.
+$mix: mix(#f00, #00f, 25%); 
+
+/* Just for demo */
+.a { color: $a; }
+.b { color: $b; }
+.c { color: $c; }
+.d { color: $d; }
+.e { color: $e; }
+.f { color: $f; }
+.g { color: $g; }
+.h { color: $h; }
+.mix { color: $mix; }

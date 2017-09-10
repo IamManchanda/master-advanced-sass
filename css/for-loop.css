@@ -1,0 +1,39 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid > div {
+  height: 25px;
+  background: #ccc;
+  border: 1px solid #aaa;
+}
+
+.grid.block-1 > div {
+  flex: 0 0 100%;
+}
+
+.grid.block-2 > div {
+  flex: 0 0 50%;
+}
+
+.grid.block-3 > div {
+  flex: 0 0 33.3333333333%;
+}
+
+.grid.block-4 > div {
+  flex: 0 0 25%;
+}
+
+.grid.block-5 > div {
+  flex: 0 0 20%;
+}
+
+.grid.block-6 > div {
+  flex: 0 0 16.6666666667%;
+}
+
+.grid.block-7 > div {
+  flex: 0 0 14.2857142857%;
+}
+
+/*# sourceMappingURL=for-loop.css.map */

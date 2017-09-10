@@ -1,0 +1,14 @@
+// List of all header sizes
+$headerSizes: 48px 40px 31px 25px 20px 16px;
+// Starting Index
+$index: 1;
+
+// Loop through the code
+@while $index <= 6 {
+  h#{$index}, .h#{$index} {
+    font-size: nth($headerSizes, $index);
+  }
+  
+  // Adding 1 to index, after code execution
+  $index: $index + 1;
+}

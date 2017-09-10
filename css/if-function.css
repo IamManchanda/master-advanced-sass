@@ -1,0 +1,11 @@
+.items li {
+  background-color: green;
+}
+
+@media screen and (min-width: 800px) {
+  .items li {
+    background-color: purple;
+  }
+}
+
+/*# sourceMappingURL=if-function.css.map */

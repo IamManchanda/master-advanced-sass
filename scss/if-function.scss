@@ -1,0 +1,15 @@
+@mixin item-styles($condition) {
+  // if true then green, instead purple
+  $color: if($condition, green, purple);
+  .items li {
+    background-color: $color;
+  }
+}
+
+// Show for true condition aka green 
+@include item-styles(true);
+
+@media screen and (min-width: 800px) {
+  // Show for false condition aka purple 
+  @include item-styles(false);
+}

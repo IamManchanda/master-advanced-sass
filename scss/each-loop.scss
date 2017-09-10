@@ -1,0 +1,16 @@
+$button-palette: (
+  primary: #1779ba,
+  secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37
+);
+
+@each $name, $color in $button-palette {
+  .#{$name} {
+    background-color: $color;
+    &:hover, &:focus {
+      background-color: darken($color, 20%);
+    }
+  }
+}
